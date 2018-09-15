@@ -23,7 +23,13 @@ body {
     font: 45pt serif;
     text-decoration: none;
     color: white;
+    
 }
+
+.menu a:hover {
+    color: #3a86dd; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background-color: white; /* Добавляем подчеркивание */
+   }
 
 .name {
     text-align: center;
@@ -31,17 +37,14 @@ body {
 }
 
 .descr {
+    background-color: cadetblue;
+    margin-left: 450px;
+    margin-right: 25%;
+    width: 960px;
     text-align: center;
     color: white;
     font: 15pt serif;
-}
-
-.usersTable {
-    color: white;
-    text-align: center;
-    border: 1px solid white;
-    width: 30%;
-    margin: auto;
+    display: inline-block;
 }
 
 .usersTable a {
@@ -50,6 +53,19 @@ body {
     text-align: center;
     width: 100%;
     margin: auto;
+}
+
+.usersTable a:hover {
+    color: #3a86dd;
+   }
+
+.table, th, td {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 30%;
+    margin-left: 450px;
 }
 
 .user {
