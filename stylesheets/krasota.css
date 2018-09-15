@@ -1,0 +1,77 @@
+body {
+    background-image: url(/home/jekson116/webprogbase/labs/lab1/images/backgrnd.jpg);
+    background-size: 100%; 
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu {
+    background-color: #3a86dd;
+    width: 100%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    word-spacing: 5cm;
+}
+
+.menu a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+    font: 45pt serif;
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    text-align: center;
+    color: white;
+}
+
+.descr {
+    text-align: center;
+    color: white;
+    font: 15pt serif;
+}
+
+.usersTable {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    width: 30%;
+    margin: auto;
+}
+
+.usersTable a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.user {
+    color: white;
+    text-align: center;
+}
+
+.keys {
+    text-align: center;
+    color: white;
+    word-spacing: 3cm;
+}
+
+.keys a {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.game {
+    color: white;
+    font: 15pt serif;
+}
