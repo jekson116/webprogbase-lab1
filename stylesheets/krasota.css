@@ -27,8 +27,8 @@ body {
 }
 
 .menu a:hover {
-    color: #3a86dd; /* Цвет ссылки при наведении на нее курсора мыши */  
-    background-color: white; /* Добавляем подчеркивание */
+    color: #3a86dd;
+    background-color: white; 
    }
 
 .name {
@@ -65,7 +65,7 @@ body {
     border: 1px solid white;
     border-collapse: collapse;
     width: 30%;
-    margin-left: 450px;
+    margin: auto;
 }
 
 .user {
